@@ -1,0 +1,30 @@
+(DELAYFILE
+  (SDFVERSION  "OVI 3.0")
+  (DESIGN      "dff")
+  (DATE        "Sat Nov 22 18:29:34 +07 2025")
+  (VENDOR      "Cadence, Inc.")
+  (PROGRAM     "Genus(TM) Synthesis Solution")
+  (VERSION     "21.19-s055_1")
+  (DIVIDER     .)
+  (VOLTAGE     ::1.1)
+  (PROCESS     "::1.0")
+  (TEMPERATURE ::0.0)
+  (TIMESCALE   1ns)
+  (CELL
+     (CELLTYPE "DFFQXLLVT")
+     (INSTANCE o_q_reg)
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH CK Q (::0.029) (::0.033))
+        )
+     )
+     (TIMINGCHECK
+        (HOLD (negedge D) (posedge CK) (::0.000))
+        (HOLD (posedge D) (posedge CK) (::0.000))
+        (SETUP (negedge D) (posedge CK) (::0.010))
+        (SETUP (posedge D) (posedge CK) (::0.013))
+     )
+  )
+)

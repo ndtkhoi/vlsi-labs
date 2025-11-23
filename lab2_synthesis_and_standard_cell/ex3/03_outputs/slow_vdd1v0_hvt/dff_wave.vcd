@@ -1,0 +1,140 @@
+$date
+    Nov 22, 2025  15:43:50
+$end
+$version
+    TOOL:	xmsim(64)	24.09-s005
+$end
+$timescale
+    1 ps
+$end
+
+$scope module tb_dff $end
+
+$scope module DUT $end
+$var wire      1 !    i_d  $end
+$var wire      1 "    i_clk  $end
+$var wire      1 #    o_q  $end
+
+$scope module o_q_reg $end
+$var wire      1 #    Q  $end
+$var wire      1 !    D  $end
+$var wire      1 "    CK  $end
+$var reg       1 $    notifier $end
+$var wire      1 !    delayed_D  $end
+$var wire      1 "    delayed_CK  $end
+$var wire      1 %    int_fwire_N30  $end
+$var wire      1 &    xcr_0  $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+0"
+x#
+x$
+x%
+x&
+$end
+#5000
+1"
+0%
+#5292
+0#
+#10000
+0"
+#15000
+1"
+#20000
+0"
+#25000
+1"
+#30000
+0"
+#35000
+1"
+#40000
+0"
+#45000
+1"
+#50000
+0"
+#52000
+1!
+#55000
+1"
+1%
+#55243
+1#
+#60000
+0"
+#65000
+1"
+#70000
+0"
+#75000
+1"
+#80000
+0!
+0"
+#84990
+1!
+#85000
+1"
+0$
+x%
+#85292
+x#
+#90000
+0"
+#95000
+1"
+1%
+#95001
+0!
+1$
+x%
+#100000
+0"
+#105000
+1"
+0%
+#105001
+1!
+#105292
+0#
+#110000
+0"
+#115000
+1"
+1%
+#115001
+0!
+0$
+x%
+#115243
+x#
+#120000
+0"
+#125000
+1"
+0%
+#125001
+1!
+#125292
+0#
+#130000
+0"
+#135000
+1"
+1%
+#135243
+1#
+#140000
+0"
+#145000
+1"
+#145001

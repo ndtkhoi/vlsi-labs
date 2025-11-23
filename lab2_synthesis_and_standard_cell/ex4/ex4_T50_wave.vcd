@@ -1,0 +1,262 @@
+$date
+    Nov 21, 2025  11:37:40
+$end
+$version
+    TOOL:	xmsim(64)	24.09-s005
+$end
+$timescale
+    1 ps
+$end
+
+$scope module ex4_T50_tb $end
+
+$scope module DUT $end
+$var wire      1 !    clk  $end
+$var wire      1 "    rst  $end
+$var wire      1 #    Q [1] $end
+$var wire      1 $    Q [0] $end
+$var wire      1 %    n_0  $end
+$var wire      1 &    n_1  $end
+$var wire      1 '    n_2  $end
+
+$scope module \Q_reg[1]  $end
+$var wire      1 #    Q  $end
+$var wire      1 '    D  $end
+$var wire      1 !    CK  $end
+$var reg       1 (    notifier $end
+$var wire      1 '    delayed_D  $end
+$var wire      1 !    delayed_CK  $end
+$var wire      1 )    int_fwire_N30  $end
+$var wire      1 *    xcr_0  $end
+$upscope $end
+
+
+$scope module g20__2398 $end
+$var wire      1 '    Y  $end
+$var wire      1 "    A  $end
+$var wire      1 &    B  $end
+$var wire      1 +    int_fwire_0  $end
+$upscope $end
+
+
+$scope module \Q_reg[0]  $end
+$var wire      1 $    Q  $end
+$var wire      1 %    D  $end
+$var wire      1 !    CK  $end
+$var reg       1 ,    notifier $end
+$var wire      1 %    delayed_D  $end
+$var wire      1 !    delayed_CK  $end
+$var wire      1 -    int_fwire_N30  $end
+$var wire      1 .    xcr_0  $end
+$upscope $end
+
+
+$scope module g22__5107 $end
+$var wire      1 &    Y  $end
+$var wire      1 $    A  $end
+$var wire      1 #    B  $end
+$var wire      1 /    int_fwire_0  $end
+$upscope $end
+
+
+$scope module g23__6260 $end
+$var wire      1 %    Y  $end
+$var wire      1 "    A  $end
+$var wire      1 $    B  $end
+$var wire      1 0    int_fwire_0  $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+1"
+x#
+x$
+x%
+x&
+x'
+x(
+x)
+x*
+1+
+x,
+x-
+x.
+x/
+10
+$end
+#22
+0'
+0%
+#25000
+1!
+0-
+0)
+#25140
+0#
+0$
+0/
+#25249
+1&
+#50000
+0!
+#75000
+1!
+#100000
+0"
+0!
+00
+#100028
+1%
+#125000
+1!
+1-
+#125119
+1$
+1/
+10
+#125143
+0%
+#125229
+0&
+0+
+#125259
+1'
+#150000
+0!
+#175000
+1!
+0-
+1)
+#175119
+1#
+0/
+#175140
+0$
+1/
+00
+#175171
+1%
+#200000
+0!
+#225000
+1!
+1-
+#225119
+1$
+0/
+10
+#225143
+0%
+#225250
+1&
+1+
+#225275
+0'
+#250000
+0!
+#275000
+1!
+0-
+0)
+#275140
+0#
+0$
+00
+#275171
+1%
+#300000
+0!
+#325000
+1!
+1-
+#325119
+1$
+1/
+10
+#325143
+0%
+#325229
+0&
+0+
+#325259
+1'
+#350000
+0!
+#375000
+1!
+0-
+1)
+#375119
+1#
+0/
+#375140
+0$
+1/
+00
+#375171
+1%
+#400000
+0!
+#425000
+1!
+1-
+#425119
+1$
+0/
+10
+#425143
+0%
+#425250
+1&
+1+
+#425275
+0'
+#450000
+0!
+#475000
+1!
+0-
+0)
+#475140
+0#
+0$
+00
+#475171
+1%
+#500000
+0!
+#525000
+1!
+1-
+#525119
+1$
+1/
+10
+#525143
+0%
+#525229
+0&
+0+
+#525259
+1'
+#550000
+0!
+#575000
+1!
+0-
+1)
+#575119
+1#
+0/
+#575140
+0$
+1/
+00
+#575171
+1%
+#600000

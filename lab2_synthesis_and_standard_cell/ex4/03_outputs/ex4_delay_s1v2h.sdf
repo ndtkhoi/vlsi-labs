@@ -1,0 +1,83 @@
+(DELAYFILE
+  (SDFVERSION  "OVI 3.0")
+  (DESIGN      "ex4")
+  (DATE        "Thu Nov 20 23:28:59 +07 2025")
+  (VENDOR      "Cadence, Inc.")
+  (PROGRAM     "Genus(TM) Synthesis Solution")
+  (VERSION     "21.19-s055_1")
+  (DIVIDER     .)
+  (VOLTAGE     ::1.08)
+  (PROCESS     "::1.0")
+  (TEMPERATURE ::125.0)
+  (TIMESCALE   1ns)
+  (CELL
+     (CELLTYPE "DFFHQX1HVT")
+     (INSTANCE Q_reg\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH CK Q (::0.119) (::0.140))
+        )
+     )
+     (TIMINGCHECK
+        (HOLD (negedge D) (posedge CK) (::0.009))
+        (HOLD (posedge D) (posedge CK) (::0.000))
+        (SETUP (negedge D) (posedge CK) (::0.037))
+        (SETUP (posedge D) (posedge CK) (::0.087))
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2XLHVT")
+     (INSTANCE g20__2398)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.028) (::0.022))
+          (IOPATH B Y (::0.030) (::0.025))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFHQX1HVT")
+     (INSTANCE Q_reg\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH CK Q (::0.119) (::0.140))
+        )
+     )
+     (TIMINGCHECK
+        (HOLD (negedge D) (posedge CK) (::0.009))
+        (HOLD (posedge D) (posedge CK) (::0.000))
+        (SETUP (negedge D) (posedge CK) (::0.037))
+        (SETUP (posedge D) (posedge CK) (::0.087))
+     )
+  )
+  (CELL
+     (CELLTYPE "XNOR2X1HVT")
+     (INSTANCE g22__5107)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.131) (::0.110))
+          (IOPATH B Y (::0.109) (::0.077))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2XLHVT")
+     (INSTANCE g23__6260)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.028) (::0.022))
+          (IOPATH B Y (::0.031) (::0.024))
+        )
+     )
+  )
+)

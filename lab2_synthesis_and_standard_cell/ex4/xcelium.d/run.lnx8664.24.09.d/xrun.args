@@ -1,0 +1,11 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-define
+GATE_LEVEL
+-define
+ANNOTATION
++access+rw
+01_tb/ex4_T100_tb.sv
+-messages

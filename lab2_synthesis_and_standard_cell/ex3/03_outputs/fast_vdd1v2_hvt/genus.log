@@ -1,0 +1,42 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2024 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[15:24:47.067001] Configured Lic search path (21.01-s002): 5280@cdns.doelab.site
+
+Version: 21.19-s055_1, built Wed May 29 02:33:07 PDT 2024
+Options: -files synth.tcl 
+Date:    Sat Nov 22 15:24:47 2025
+Host:    pink.doelab.site (x86_64 w/Linux 4.18.0-553.40.1.el8_10.x86_64) (42cores*42cpus*1physical cpu*QEMU Virtual CPU version 2.5+ 16384KB) (128335080KB)
+PID:     2468888
+OS:      Rocky Linux release 8.10 (Green Obsidian)
+
+
+[15:24:48.009674] Periodic Lic check successful
+[15:24:48.009715] Feature usage summary:
+[15:24:48.009720] Genus_Synthesis
+Checking out license: Genus_Synthesis
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...
+Finished loading tool scripts (16 seconds elapsed).
+
+#@ Processing -files option
+@genus 1> source synth.tcl
+File 'synth.tcl' does not exist.
+Encountered problems processing file: synth.tcl
+WARNING: This version of the tool is 541 days old.
+@genus:root: 2> exit
+
+Lic Summary:
+[15:30:21.117098] Cdslmd servers: vm-fsemi-edu02-h4l0gt0b
+[15:30:21.117114] Feature usage summary:
+[15:30:21.117120] Genus_Synthesis
+
+Normal exit.
